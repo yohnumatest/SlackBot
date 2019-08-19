@@ -21,7 +21,7 @@ Javaを使ったSlackBot
 3.(これでmaven projectとしてEclipseに読み込まれます)  
 4.API Token for BOT をセット  
 
-src直下のcredentials.propertiesというファイルに、以下のように取得したapi tokenをセットします
+src直下のcredentials.propertiesというファイルを作り、以下のように取得したapi tokenをセットします
 
 ```
 slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
